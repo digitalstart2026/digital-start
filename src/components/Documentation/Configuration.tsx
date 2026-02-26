@@ -7,7 +7,7 @@ export const Configuration = () => {
     <>
       <div className="pb-10 md:scroll-m-[130px] scroll-m-28" id="configuration">
         <h3 className=" text-black text-2xl font-semibold mt-4 dark:text-white">
-          Project Configuration
+          Project Configuration..
         </h3>
         <ColorConfiguration />
         <TypographyConfiguration />
