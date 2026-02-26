@@ -50,31 +50,31 @@ export const brandList: brand[] = [
 export const innovationList: innovation[] = [
     {
         image: "/images/home/innovation/brand.svg",
-        title: "Brand\nStrategy",
+        title: "Search Engine Optimization (SEO)",
         bg_color: "bg-purple",
         txt_color: "text-purple"
     },
     {
         image: "/images/home/innovation/digitalmarketing.svg",
-        title: "Digital\nMarketing",
+        title: "Local Seo",
         bg_color: "bg-blue",
         txt_color: "text-blue"
     },
     {
         image: "/images/home/innovation/uiux.svg",
-        title: "UI/UX\nDesign",
+        title: "Google Ads & PPC",
         bg_color: "bg-orange",
         txt_color: "text-orange"
     },
     {
         image: "/images/home/innovation/analitics.svg",
-        title: "Analytics &\nReporting",
+        title: "Social Media Marketing",
         bg_color: "bg-green",
         txt_color: "text-green"
     },
     {
         image: "/images/home/innovation/webdevp.svg",
-        title: "Web\nDevelopment",
+        title: "Website Design & Development",
         bg_color: "bg-pink",
         txt_color: "text-pink"
     }
