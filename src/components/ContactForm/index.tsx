@@ -25,7 +25,7 @@ function ContactForm() {
         e.preventDefault();
 
         // 👇 Replace with your WhatsApp number (with country code, no + or spaces)
-        const whatsappNumber = "917375871283"; // e.g. 919876543210 for India
+        const whatsappNumber = "917665363155"; // e.g. 919876543210 for India
 
         const message =
 `Hello, I came across your website and would like to discuss a project.
