@@ -17,7 +17,7 @@ function Solutions() {
         <section>
             <div  className="2xl:py-20 py-11">
                 <div className="container">
-                    <div ref={ref} className="py-16 md:py-28 px-6 border border-dark_black border-opacity-10 rounded-3xl bg-[linear-gradient(90deg,#CDEFFB_0%,#FFFFFF_33.23%,#FFFFFF_65.77%,#FDEECB_100%)] backdrop-blur-[200px] dark:opacity-80">
+                    <div ref={ref} className="py-16 md:py-28 px-6 border border-dark_black/10 rounded-3xl bg-[linear-gradient(90deg,#CDEFFB_0%,#FBFAF7_33.23%,#FBFAF7_65.77%,#FDEECB_100%)] shadow-soft-lg backdrop-blur-[200px] dark:shadow-none dark:opacity-80">
                         <motion.div {...bottomAnimation} className="flex flex-col gap-6 items-center md:max-w-3xl mx-auto">
                             <div className="flex flex-col gap-3 items-center text-center">
                                 <h2 className="text-3xl md:text-5xl dark:text-dark_black">Innovative Solutions for <span className="instrument-font italic font-normal dark:opacity-70">Bold Brands</span></h2>

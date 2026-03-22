@@ -14,20 +14,20 @@ function CustomerStories() {
                                 <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/customer_bg_img.jpg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
                                     <span className="text-white opacity-60 uppercase text-sm font-medium">Customer stories</span>
                                     <div className="flex flex-col gap-6 ">
-                                        <h4 className="text-white">“Awake’s expertise transformed my vision into success!”</h4>
+                                        <h4 className="text-white">"Digital Start's expertise transformed my vision into success!"</h4>
                                         <div className="flex flex-col gap-1">
                                             <p className="text-white font-medium">Kabir Shah</p>
-                                            <p className="text-white opacity-60 text-sm font-medium">Founder of Chipsland</p>
+                                            <p className="text-white opacity-60 text-sm font-medium">Founder </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex flex-col justify-between gap-36 xl:max-w-25 bg-paleYellow rounded-2xl p-8">
+                                <div className="flex flex-col justify-between gap-36 xl:max-w-25 rounded-2xl border border-dark_black/[0.06] bg-paleYellow p-8 shadow-soft dark:border-transparent dark:shadow-none">
                                     <div>
                                         <span className="uppercase text-sm font-medium text-dark_black opacity-60">Facts & numbers</span>
                                     </div>
                                     <div className="flex flex-col gap-1">
                                         <h2 className="text-7xl font-medium dark:text-dark_black">91%</h2>
-                                        <h4 className="dark:text-dark_black">Clients recommend our design services.”</h4>
+                                        <h4 className="dark:text-dark_black">Clients recommend our SEO services.”</h4>
                                     </div>
                                 </div>
                             </div>
@@ -41,10 +41,10 @@ function CustomerStories() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex flex-col gap-24 justify-between bg-dark_black bg-opacity-5 dark:bg-white dark:bg-opacity-5 p-8 rounded-2xl">
+                                <div className="flex flex-col gap-24 justify-between rounded-2xl border border-dark_black/[0.07] bg-surface_elevated p-8 shadow-soft dark:border-transparent dark:bg-white dark:bg-opacity-5 dark:shadow-none">
                                     <div className="flex flex-col gap-6">
                                         <span className="text-dark_black opacity-60 dark:text-white uppercase text-sm font-medium">Customer stories</span>
-                                        <h2 className="text-2xl lg:text-5xl">“Awake Design Agency brought our ideas to life with exceptional creativity and precision, exceeding expectations.”</h2>
+                                        <h2 className="text-2xl lg:text-5xl">"Digital Start brought our ideas to life with exceptional creativity and precision, exceeding expectations."</h2>
                                     </div>
                                     <div className="flex flex-col gap-1">
                                         <p className="text-dark_black font-medium">Kabir Shah</p>

@@ -58,7 +58,12 @@ export type startupPlan = {
 export type faq = {
   faq_que: string;
   faq_ans: string;
-}
+};
+
+export type faqSection = {
+  title: string;
+  items: faq[];
+};
 
 export type achievements = {
   icon: string;

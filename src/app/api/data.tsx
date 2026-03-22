@@ -1,4 +1,4 @@
-import { avatar, brand, innovation, onlinePresence, creativeMind, WebResultTag, startupPlan, faq, achievements } from "../../types/menu";
+import { avatar, brand, innovation, onlinePresence, creativeMind, WebResultTag, startupPlan, faq, faqSection, achievements } from "../../types/menu";
 
 export const avatarList: avatar[] = [
     {
@@ -184,31 +184,72 @@ export const startupPlanList: startupPlan[] = [
     }
 ];
 
-export const faqList: faq[] = [
+export const faqSections: faqSection[] = [
     {
-        faq_que: "What services does Awake Agency offer?",
-        faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+        title: "Local SEO",
+        items: [
+            {
+                faq_que: "What is Local SEO and why is it important for my business in Jaipur?",
+                faq_ans:
+                    "Local SEO helps your business appear in nearby search results when customers search for services like “marketing agency near me” or “SEO services in Jaipur.” It increases visibility, calls, and walk-ins from local customers.",
+            },
+            {
+                faq_que: "How can Digital Start help my business rank on Google Maps?",
+                faq_ans:
+                    "We optimize your Google Business Profile, improve reviews, add keywords, and build local citations to boost your ranking in Google Maps and local search results.",
+            },
+            {
+                faq_que: "How long does Local SEO take to show results?",
+                faq_ans:
+                    "Typically, you can start seeing improvements within 1–3 months, depending on competition and current profile optimization.",
+            },
+            {
+                faq_que: "Do Google reviews really impact my ranking?",
+                faq_ans:
+                    "Yes. Positive reviews and regular engagement significantly improve your local ranking and build trust with potential customers.",
+            },
+        ],
     },
     {
-        faq_que: "How long does a typical project take?",
-        faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+        title: "Website SEO",
+        items: [
+            {
+                faq_que: "Why does my business need a professional website?",
+                faq_ans:
+                    "A website builds credibility, helps customers find information easily, and improves your chances of ranking on Google for relevant keywords.",
+            },
+            {
+                faq_que: "What SEO services does Digital Start offer?",
+                faq_ans:
+                    "We provide keyword research, on-page SEO, technical SEO, content optimization, backlink building, and complete website audits.",
+            },
+            {
+                faq_que: "How long does it take to rank a website on Google?",
+                faq_ans:
+                    "SEO is a long-term strategy. Most websites start seeing results in 3–6 months, depending on competition and strategy.",
+            },
+        ],
     },
     {
-        faq_que: "How is pricing structured at Awake Agency?",
-        faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
+        title: "Social media marketing (SMM)",
+        items: [
+            {
+                faq_que: "How can social media marketing help my business grow?",
+                faq_ans:
+                    "Social media marketing increases brand awareness, engages your audience, generates leads, and drives traffic to your website through platforms like Instagram and Facebook.",
+            },
+            {
+                faq_que: "Which social media platforms are best for my business?",
+                faq_ans:
+                    "It depends on your target audience. For most local businesses in Jaipur, Instagram, Facebook, and WhatsApp marketing work best.",
+            },
+            {
+                faq_que: "Do you provide content creation and ad management?",
+                faq_ans:
+                    "Yes. Digital Start offers complete social media services including post design, reels, captions, ad campaigns, and performance tracking.",
+            },
+        ],
     },
-    {
-        faq_que: "Do you offer ongoing support after project completion?",
-        faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-    },
-    {
-        faq_que: "How often will I receive updates on my project?",
-        faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-    },
-    {
-        faq_que: "How often will I receive updates on my project?",
-        faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-    }
 ];
 
 export const achievementsList: achievements[] = [

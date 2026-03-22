@@ -34,21 +34,21 @@ function WebResult() {
                                 <h2 ref={ref} className="2xl:text-9xl md:text-7xl text-5xl"><sup>+</sup>
                                     {inView ? <CountUp start={0} end={40} duration={3} /> : "0"}
                                 </h2>
-                                <p className="mt-2 opacity-60">Total Projects Completed</p>
+                                <p className="mt-2 text-ink_muted dark:text-white/60">Total Projects Completed</p>
                                 <div className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 h-28 w-px bg-dark_black bg-opacity-10" />
                             </div>
                             <div className="relative 2xl:px-24 px-16 md:py-8 py-4">
                                 <h2 className="2xl:text-9xl md:text-7xl text-5xl"><sup>+</sup>
                                 {inView ? <CountUp start={0} end={15} duration={3} /> : "0"}
                                 </h2>
-                                <p className="mt-2 opacity-60">Years of Experience</p>
+                                <p className="mt-2 text-ink_muted dark:text-white/60">Years of Experience</p>
                                 <div className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 h-28 w-px bg-dark_black bg-opacity-10" />
                             </div>
                             <div className="relative 2xl:px-24 px-16 md:py-8 py-4">
                                 <h2 className="2xl:text-9xl md:text-7xl text-5xl"><sup>+</sup>
                                 {inView ? <CountUp start={0} end={12} duration={3} /> : "0"}
                                 </h2>
-                                <p className="mt-2 opacity-60">Design Awards</p>
+                                <p className="mt-2 text-ink_muted dark:text-white/60">Design Awards</p>
                             </div>
                         </div>
 

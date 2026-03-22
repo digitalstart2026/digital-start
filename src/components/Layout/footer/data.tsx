@@ -1,6 +1,6 @@
 export const footerData = {
     brand: {
-        name: "Awake",
+        name: "Digital Start",
         tagline: "Empowering businesses with innovative solutions. Let's create something amazing together.",
         socialLinks: [
             {
@@ -11,17 +11,17 @@ export const footerData = {
             {
                 icon: "/images/home/footerSocialIcon/linkedin.svg",
                 dark_icon: "/images/home/footerSocialIcon/linkedin_dark.svg",
-                link: "https://linkedin.com/in"
+                link: "https://www.linkedin.com/in/digital-start-96a0823a9/"
             },
-            {
-                icon: "/images/home/footerSocialIcon/dribble.svg",
-                dark_icon: "/images/home/footerSocialIcon/dribble_dark.svg",
-                link: "https://dribbble.com"
-            },
+            // {
+            //     icon: "/images/home/footerSocialIcon/dribble.svg",
+            //     dark_icon: "/images/home/footerSocialIcon/dribble_dark.svg",
+            //     link: "https://dribbble.com"
+            // },
             {
                 icon: "/images/home/footerSocialIcon/instagram.svg",
                 dark_icon: "/images/home/footerSocialIcon/instagram_dark.svg",
-                link: "https://instagram.com"
+                link: "https://www.instagram.com/_digital_start_"
             }
         ]
     },
@@ -30,7 +30,7 @@ export const footerData = {
         links: [
             { name: "Contact us", url: "/contact" },
             { name: "About us", url: "#aboutus" },
-            { name: "Work", url: "#work" },
+            // { name: "Work", url: "#work" },
             { name: "Services", url: "#services" },
             { name: "Pricing", url: "#pricing" }
         ]
@@ -38,16 +38,16 @@ export const footerData = {
     otherPages: {
         name: "Other Pages",
         links: [
-            { name: "Error 404", url: "/not-found" },
+            // { name: "Error 404", url: "/not-found" },
             { name: "Terms & Conditions", url: "/terms-and-conditions" },
             { name: "Privacy Policy", url: "/privacy-policy" }
         ]
     },
     contactDetails: {
         name:"Contact Details",
-        address: "81 Rivington Street London EC2A 3AY",
-        email: "hello@awake.agency",
-        phone: "0105 192 3556"
+        address: "84, Vishwakarma Nagar 2, Gayatri Nagar B, Maharani Farm, Jaipur",
+        email: "Digitalstart02@gmail.com",
+        phone: "7665363155"
     },
-    copyright: "©2025 Awake. All Rights Reserved"
+    copyright: "©2025 Digital Start. All Rights Reserved"
 };

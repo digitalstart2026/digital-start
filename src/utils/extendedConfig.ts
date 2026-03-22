@@ -1,8 +1,16 @@
 const extendedConfig = {
   boxShadow: {
-    'header_shadow': '0px 1px 3px 0px rgba(0, 0, 0, 0.1)'
+    header_shadow: "0px 1px 3px 0px rgba(0, 0, 0, 0.1)",
+    /** Light mode: layered, soft depth (pair with dark:shadow-none or dark:shadow where needed) */
+    soft: "0 1px 2px rgba(27, 29, 30, 0.04), 0 4px 16px rgba(27, 29, 30, 0.05)",
+    soft_md: "0 2px 6px rgba(27, 29, 30, 0.05), 0 12px 32px rgba(27, 29, 30, 0.07)",
+    soft_lg: "0 8px 40px rgba(27, 29, 30, 0.08)",
   },
   colors: {
+    /** Light-mode canvas & cards — warm neutrals, not pure white */
+    surface: "#F3F2EE",
+    surface_elevated: "#FBFAF7",
+    ink_muted: "#5C5F62",
     dark_black: "#1B1D1E",
     purple_blue: "#4928FD",
     purple: "#BA81EE",

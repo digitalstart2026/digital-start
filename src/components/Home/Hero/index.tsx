@@ -18,7 +18,7 @@ function HeroSection() {
   return (
     <section>
       <div 
-      className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-gradient-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10"
+      className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-gradient-to-r before:from-blue_gradient before:via-surface before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10"
       >
         <div className="container relative z-10">
           <div ref={ref} className='flex flex-col gap-8'>
@@ -28,7 +28,7 @@ function HeroSection() {
                 Your growth partner for
                 <span className='instrument-font italic font-normal dark:opacity-70'> digital-first brands</span>
               </h1>
-              <p className='max-w-38 opacity-60'>
+              <p className='max-w-38 text-ink_muted dark:text-white/60'>
                 At Digital Start, we help new businesses and startups in Jaipur build a powerful online presence,
                 generate high-quality leads, and turn clicks into loyal customers with performance-driven digital marketing.
               </p>
@@ -78,7 +78,7 @@ function HeroSection() {
                     <div>
                       <StarRating count={4} color='#F59E0B' />
                     </div>
-                    <p className='text-sm font-normal opacity-60'>Trusted by ambitious startups and growing brands</p>
+                    <p className='text-sm font-normal text-ink_muted dark:text-white/60'>Trusted by ambitious startups and growing brands</p>
                   </div>
                 </div>
               </div>

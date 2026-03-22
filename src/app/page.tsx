@@ -1,13 +1,13 @@
 import HeroSection from "@/components/Home/Hero";
-import Brand from "@/components/Home/Brand";
+// import Brand from "@/components/Home/Brand";
 import WebResult from "@/components/Home/WebResult";
 import Innovation from "@/components/Home/Innovation";
-import OnlinePresence from "@/components/Home/OnlinePresence";
-import CreativeMind from "@/components/Home/CreativeMind";
+// import OnlinePresence from "@/components/Home/OnlinePresence";
+// import CreativeMind from "@/components/Home/CreativeMind";
 import CustomerStories from "@/components/Home/CustomerStories";
-import Subscription from "@/components/Home/Subscription";
+// import Subscription from "@/components/Home/Subscription";
 import Faq from "@/components/Home/Faq";
-import Achievements from "@/components/Home/Achievements";
+// import Achievements from "@/components/Home/Achievements";
 import Solutions from "@/components/Home/Solution";
 
 
@@ -19,7 +19,7 @@ export default function Home() {
       {/* ---------------------Hero section Ends-----------------  */}
 
       {/* ---------------------Brand logo section Starts-----------------  */}
-      <Brand />
+      {/* <Brand /> */}
       {/* ---------------------Brand logo section Ends-----------------  */}
 
       {/* ---------------------Web result section Starts-----------------  */}
