@@ -8,11 +8,24 @@
 html {
   scroll-behavior: smooth;
   font-family: "Inter Tight", sans-serif;
-  @apply bg-surface text-dark_black antialiased dark:bg-dark_black;
+  @apply text-dark_black antialiased;
+}
+
+/* Light: lavender canvas behind ambient layers; dark mode unchanged */
+html:not(.dark) {
+  background-color: #f5f3fa;
+}
+
+html.dark {
+  @apply bg-dark_black;
 }
 
 body {
-  @apply min-h-screen bg-surface dark:bg-dark_black;
+  @apply min-h-screen dark:bg-dark_black;
+}
+
+html:not(.dark) body {
+  background-color: transparent;
 }
 
 * {
@@ -76,6 +89,30 @@ body {
 
   .container {
     @apply w-full max-w-[82.8rem] my-0 mx-auto py-0 sm:px-7 px-5;
+  }
+
+  /** Light mode only: luminous seam between stacked <section> siblings in <main> */
+  html:not(.dark) main > section + section::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(186, 129, 238, 0.22) 22%,
+      rgba(73, 40, 253, 0.14) 50%,
+      rgba(186, 129, 238, 0.2) 78%,
+      transparent 100%
+    );
+    opacity: 0.85;
+  }
+
+  html:not(.dark) main > section {
+    position: relative;
   }
 }
 

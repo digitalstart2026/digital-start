@@ -32,7 +32,7 @@ export const footerData = {
             { name: "About us", url: "#aboutus" },
             // { name: "Work", url: "#work" },
             { name: "Services", url: "#services" },
-            { name: "Pricing", url: "#pricing" }
+            // { name: "Pricing", url: "#pricing" }
         ]
     },
     otherPages: {

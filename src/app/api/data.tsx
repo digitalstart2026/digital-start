@@ -52,32 +52,83 @@ export const innovationList: innovation[] = [
         image: "/images/home/innovation/brand.svg",
         title: "Search Engine Optimization (SEO)",
         bg_color: "bg-purple",
-        txt_color: "text-purple"
+        txt_color: "text-purple",
+        description:
+            "We align technical SEO, content, and authority signals so you rank for searches that actually drive revenue. Building qualified organic traffic you own, not rented click-by-click.",
+        highlights: [
+            "Rank higher on Google.",
+            "Get organic traffic.",
+            "Build long-term authority.",
+        ],
     },
     {
         image: "/images/home/innovation/digitalmarketing.svg",
-        title: "Local Seo",
+        title: "Local SEO",
         bg_color: "bg-blue",
-        txt_color: "text-blue"
+        txt_color: "text-blue",
+        description:
+            "We strengthen how you show up in local search and maps. So nearby buyers discover you first, see accurate information, and choose you with confidence.",
+        features: ["Keyword Strategy", "GMB Optimization"],
     },
     {
         image: "/images/home/innovation/uiux.svg",
         title: "Google Ads & PPC",
         bg_color: "bg-orange",
-        txt_color: "text-orange"
+        txt_color: "text-orange",
+        description:
+            "Strategic paid search and display that reaches high-intent audiences, controls spend, and scales the campaigns that reliably deliver leads and sales.",
+        highlights: [
+            "Instant visibility.",
+            "Targeted traffic.",
+            "High-quality leads.",
+        ],
     },
     {
         image: "/images/home/innovation/analitics.svg",
         title: "Social Media Marketing",
         bg_color: "bg-green",
-        txt_color: "text-green"
+        txt_color: "text-green",
+        description:
+            "Content and campaigns tailored to your audience designed to grow recognition, earn trust, and keep your brand present where people already spend time.",
+        highlights: [
+            "Build trust.",
+            "Create engagement.",
+            "Grow your brand voice.",
+        ],
+        features: [
+            "Instagram Marketing",
+            "Facebook Campaigns",
+            "Content Planning",
+            "Paid Promotions",
+        ],
     },
     {
         image: "/images/home/innovation/webdevp.svg",
         title: "Website Design & Development",
         bg_color: "bg-pink",
-        txt_color: "text-pink"
-    }
+        txt_color: "text-pink",
+        description:
+            "Fast, modern sites and landing experiences with clear story and UX—built to convert visitors and support your SEO, ads, and long-term growth.",
+        features: [
+            "Business Websites",
+            "Landing Pages",
+            "E-commerce Stores",
+            "SEO-Optimized Design",
+        ],
+    },
+    {
+        image: "/images/home/innovation/brand.svg",
+        title: "Branding & Content Strategy",       
+        bg_color: "bg-purple_blue",
+        txt_color: "text-purple_blue",
+        description:
+            "Cohesive identity and messaging that set you apart. Paired with content that educates prospects, reinforces credibility, and fuels marketing and sales.",
+        features: [
+            "Logo & Visual Identity",
+            "Brand Messaging",
+            "Content Marketing",
+        ],
+    },
 ];
 
 export const onlinePresenceList: onlinePresence[] = [

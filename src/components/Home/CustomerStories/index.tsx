@@ -17,7 +17,7 @@ function CustomerStories() {
                                         <h4 className="text-white">"Digital Start's expertise transformed my vision into success!"</h4>
                                         <div className="flex flex-col gap-1">
                                             <p className="text-white font-medium">Kabir Shah</p>
-                                            <p className="text-white opacity-60 text-sm font-medium">Founder </p>
+                                            {/* <p className="text-white opacity-60 text-sm font-medium">Founder </p> */}
                                         </div>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ function CustomerStories() {
                                     </div>
                                     <div className="flex flex-col gap-1">
                                         <p className="text-dark_black font-medium">Kabir Shah</p>
-                                        <p className="text-dark_black opacity-60 text-sm font-medium">Founder of Chipsland</p>
+                                        {/* <p className="text-dark_black opacity-60 text-sm font-medium">Founder of Chipsland</p> */}
                                     </div>
                                 </div>
                             </div>
