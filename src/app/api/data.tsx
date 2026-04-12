@@ -89,7 +89,7 @@ export const innovationList: innovation[] = [
         bg_color: "bg-green",
         txt_color: "text-green",
         description:
-            "Content and campaigns tailored to your audience designed to grow recognition, earn trust, and keep your brand present where people already spend time.",
+            "Content and campaigns tailored to your audience designed to grow recognition, earn trust, and keep your brand present where people already spend time!",
         highlights: [
             "Build trust.",
             "Create engagement.",
