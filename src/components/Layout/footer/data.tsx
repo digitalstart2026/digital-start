@@ -44,10 +44,26 @@ export const footerData = {
         ]
     },
     contactDetails: {
-        name:"Contact Details",
-        address: "84, Vishwakarma Nagar 2, Gayatri Nagar B, Maharani Farm, Jaipur",
-        email: "Digitalstart02@gmail.com",
-        phone: "7665363155"
+        name: "Contact Details",
+        rows: [
+            {
+                icon: "mdi:map-marker-outline",
+                label: "Address",
+                text: "84, Vishwakarma Nagar 2, Gayatri Nagar B, Maharani Farm, Jaipur",
+            },
+            {
+                icon: "mdi:email-outline",
+                label: "Email",
+                text: "Digitalstart02@gmail.com",
+                href: "mailto:Digitalstart02@gmail.com",
+            },
+            {
+                icon: "mdi:phone-outline",
+                label: "Phone",
+                text: "7665363155",
+                href: "tel:+917665363155",
+            },
+        ],
     },
     copyright: "©2025 Digital Start. All Rights Reserved"
 };

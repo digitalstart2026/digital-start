@@ -49,7 +49,7 @@ export const brandList: brand[] = [
 
 export const innovationList: innovation[] = [
     {
-        image: "/images/home/innovation/brand.svg",
+        image: "ph:list-magnifying-glass",
         title: "Search Engine Optimization (SEO)",
         bg_color: "bg-purple",
         txt_color: "text-purple",
@@ -62,7 +62,7 @@ export const innovationList: innovation[] = [
         ],
     },
     {
-        image: "/images/home/innovation/digitalmarketing.svg",
+        image: "ph:map-pin-area", 
         title: "Local SEO",
         bg_color: "bg-blue",
         txt_color: "text-blue",
@@ -71,7 +71,7 @@ export const innovationList: innovation[] = [
         features: ["Keyword Strategy", "GMB Optimization"],
     },
     {
-        image: "/images/home/innovation/uiux.svg",
+        image: "ph:megaphone",
         title: "Google Ads & PPC",
         bg_color: "bg-orange",
         txt_color: "text-orange",
@@ -84,7 +84,7 @@ export const innovationList: innovation[] = [
         ],
     },
     {
-        image: "/images/home/innovation/analitics.svg",
+        image: "ph:chart-bar", 
         title: "Social Media Marketing",
         bg_color: "bg-green",
         txt_color: "text-green",
@@ -103,7 +103,7 @@ export const innovationList: innovation[] = [
         ],
     },
     {
-        image: "/images/home/innovation/webdevp.svg",
+        image: "ph:monitor", 
         title: "Website Design & Development",
         bg_color: "bg-pink",
         txt_color: "text-pink",
@@ -117,7 +117,7 @@ export const innovationList: innovation[] = [
         ],
     },
     {
-        image: "/images/home/innovation/brand.svg",
+        image: "ph:paint-brush",  
         title: "Branding & Content Strategy",       
         bg_color: "bg-purple_blue",
         txt_color: "text-purple_blue",

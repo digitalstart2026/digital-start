@@ -14,9 +14,9 @@ function CustomerStories() {
                                 <div className="p-8 gap-64 rounded-2xl flex flex-col relative bg-[url('/images/home/customerStories/customer_bg_img.jpg')] object-cover bg-center h-full w-full bg-cover bg-no-repeat">
                                     <span className="text-white opacity-60 uppercase text-sm font-medium">Customer stories</span>
                                     <div className="flex flex-col gap-6 ">
-                                        <h4 className="text-white">"Digital Start's expertise transformed my vision into success!"</h4>
+                                        <h4 className="text-white">"Excellent digital marketing service with a professional approach. Communication was smooth, work was delivered on time, and the strategies were practical and result-oriented. I noticed real improvement in reach and customer response. I would definitely recommend their services."</h4>
                                         <div className="flex flex-col gap-1">
-                                            <p className="text-white font-medium">Kabir Shah</p>
+                                            <p className="text-white font-medium">Kalagya Craft</p>
                                             {/* <p className="text-white opacity-60 text-sm font-medium">Founder </p> */}
                                         </div>
                                     </div>
@@ -42,12 +42,12 @@ function CustomerStories() {
                                     </div>
                                 </div>
                                 <div className="flex flex-col gap-24 justify-between rounded-2xl border border-dark_black/[0.07] bg-surface_elevated p-8 shadow-soft dark:border-transparent dark:bg-white dark:bg-opacity-5 dark:shadow-none">
-                                    <div className="flex flex-col gap-6">
+                                    <div className="flex flex-col gap-8">
                                         <span className="text-dark_black opacity-60 dark:text-white uppercase text-sm font-medium">Customer stories</span>
                                         <h2 className="text-2xl lg:text-5xl">"Digital Start brought our ideas to life with exceptional creativity and precision, exceeding expectations."</h2>
                                     </div>
-                                    <div className="flex flex-col gap-1">
-                                        <p className="text-dark_black font-medium">Kabir Shah</p>
+                                    <div className="flex flex-col ">
+                                        <p className="text-dark_black font-medium">Lakshay Jain </p>
                                         {/* <p className="text-dark_black opacity-60 text-sm font-medium">Founder of Chipsland</p> */}
                                     </div>
                                 </div>

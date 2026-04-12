@@ -1,6 +1,6 @@
 "use client";
+import { Icon } from "@iconify/react";
 
-import Image from "next/image";
 import { innovationList } from "@/app/api/data";
 import Link from "next/link";
 import React, { useRef } from "react";
@@ -189,13 +189,13 @@ function Innovation() {
                       <div
                         className={`flex h-[3.75rem] w-[3.75rem] shrink-0 items-center justify-center rounded-2xl border border-black/[0.06] ring-2 ring-white/80 shadow-[0_6px_20px_rgba(27,29,30,0.07)] transition-all duration-500 group-hover:-rotate-1 group-hover:shadow-[0_10px_28px_rgba(73,40,253,0.15)] dark:border-white/[0.1] dark:!bg-white/[0.06] dark:ring-1 dark:ring-white/[0.08] dark:shadow-none dark:group-hover:shadow-none sm:h-16 sm:w-16 sm:rounded-[22px] ${iconSurface}`}
                       >
-                        <Image
-                          src={items.image}
-                          alt=""
-                          width={40}
-                          height={40}
-                          className="transition-transform duration-500 group-hover:scale-[1.06]"
-                        />
+                        <Icon
+    icon={items.image}
+    width={36}
+    height={36}
+    className={`transition-transform duration-500 group-hover:scale-[1.06] ${items.txt_color}`}
+    style={{ color: 'currentColor' }}
+/>
                       </div>
                       <span className="rounded-lg border border-black/[0.06] bg-black/[0.03] px-2 py-1 font-mono text-[11px] font-semibold tabular-nums tracking-[0.12em] text-black/45 dark:border-white/10 dark:bg-white/[0.05] dark:text-white/50">
                         {String(index + 1).padStart(2, "0")}

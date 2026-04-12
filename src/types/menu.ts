@@ -19,11 +19,8 @@ export type innovation = {
   title: string;
   bg_color: string;
   txt_color: string;
-  /** What the service includes and why it matters — one or two tight sentences */
   description: string;
-  /** Short value lines (shown as stacked highlights) */
   highlights?: string[];
-  /** Feature / offering bullets */
   features?: string[];
 };
 
